@@ -3,9 +3,13 @@ export const REPLACE_MAP = [
     barrelPath: '@/components/base',
     operation: "add",
     map: {
-      ReplacableComponent: "/replacable-component",
-      ReplacableComponent1: "/replacable-component-1",
-      ReplacableComponent2: "/replacable-component-2",
+      ReplaceableComponent: "/replaceable-component",
+      ReplaceableComponent1: "/replaceable-component-1",
+      ReplaceableComponent2: "/replaceable-component-2",
+      ReplaceableComponent3: "/replaceable-component-3",
+      ReplaceableComponent4: "/replaceable-component-4",
+      ReplaceableComponent5: "/replaceable-component-5",
+      ReplaceableComponent6: "/replaceable-component-6",
     }
   },
   {

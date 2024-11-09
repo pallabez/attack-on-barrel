@@ -1,6 +1,6 @@
 import { 
-    IrreplacableComponent1,
-    IrreplacableComponent2,
-    IrreplacableComponent3,
-    IrreplacableComponent4,
+    IrreplaceableComponent1,
+    IrreplaceableComponent2,
+    IrreplaceableComponent3,
+    IrreplaceableComponent4,
 } from "@/components/base";

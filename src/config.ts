@@ -1,3 +1,3 @@
 export const CONFIG = {
-    DIRECTORY_MATCH: "tests/playground/**/*.ts",
+    DIRECTORY_MATCH: "tests/playground/**/*.*",
 }

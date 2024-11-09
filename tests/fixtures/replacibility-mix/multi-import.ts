@@ -1,1 +1,1 @@
-import { IrreplacableComponent, ReplacableComponent } from "@/components/base";
+import { IrreplaceableComponent, ReplaceableComponent } from "@/components/base";
