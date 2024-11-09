@@ -1,0 +1,1 @@
+import { IrreplacableComponent, ReplacableComponent } from "@/components/base";

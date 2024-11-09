@@ -1,0 +1,1 @@
+import { ReplaceableComponent1, ReplaceableComponent2 } from "@/components/base";
