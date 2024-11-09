@@ -7,17 +7,22 @@
   "scripts": {
     "test": "jest",
     "lint": "eslint .",
-    "set": "node scripts/prepare-playground.js"
+    "set": "node scripts/prepare-playground.js",
+    "prepare": "tsc && tsc-alias",
+    "attack": "node dist/src/index.js",
+    "pa": "npm run prepare && npm run attack"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@eslint/js": "^9.14.0",
     "@types/jest": "^29.5.14",
+    "@types/node": "^22.9.0",
     "eslint": "^9.14.0",
     "globals": "^15.12.0",
     "jest": "^29.7.0",
     "ts-jest": "^29.2.5",
+    "tsc-alias": "^1.8.10",
     "typescript": "^5.6.3",
     "typescript-eslint": "^8.13.0"
   },

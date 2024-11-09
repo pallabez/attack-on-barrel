@@ -1,3 +1,3 @@
 export const CONFIG = {
-    BASE_DIR: "src",
+    DIRECTORY_MATCH: "tests/playground/**/*.ts",
 }

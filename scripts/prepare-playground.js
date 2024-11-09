@@ -21,8 +21,4 @@ const copyRecursiveSync = (src, dest) => {
 const source = './tests/fixtures';
 const destination = './tests/playground';
 
-if (!fs.existsSync(destination)) {
-    fs.rmdirSync(destination, { recursive: true });
-}
-
 copyRecursiveSync(source, destination);
