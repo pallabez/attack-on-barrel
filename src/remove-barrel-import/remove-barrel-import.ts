@@ -30,7 +30,7 @@ export const removeBarrelImport = ({ barrelPath, fileContent, importEntityMap }:
 
         hasChanged = true;
 
-        const nonReplaceableImportsStr = getNonReplaceableImportStr({ imports: nonReplaceableImports });
+        const nonReplaceableImportsStr = getNonReplaceableImportStr({ imports: nonReplaceableImports, barrelPath });
         const replaceableImportsStr = getReplaceableImportStr({ imports: replaceableImports, importEntityMap, barrelPath });
 
         return [nonReplaceableImportsStr, replaceableImportsStr].join("")

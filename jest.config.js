@@ -4,7 +4,9 @@ export default {
   transform: {
     "^.+.tsx?$": ["ts-jest",{}],
   },
+  rootDir: ".",
   moduleNameMapper: {
     "^@/(.*)$": "<rootDir>/src/$1",
   },
+  modulePaths: ["src", "tests"]
 };

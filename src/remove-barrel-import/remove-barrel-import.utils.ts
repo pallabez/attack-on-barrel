@@ -15,10 +15,10 @@ export const generateMatchPattern = ({ barrelPath }: TGenerateMatchPatternParams
     return new RegExp(patternString, 'gs');
 }
 
-export const getNonReplaceableImportStr = ({ imports }: { imports: string[] }) => {
+export const getNonReplaceableImportStr = ({ imports, barrelPath }: { imports: string[], barrelPath: string }) => {
     if (!imports.length) return "";
 
-    return `import { ${imports.join(", ")} } from "@/components/base";\n`;
+    return `import { ${imports.join(", ")} } from "${barrelPath}";\n`;
 }
 
 type TGetReplaceableImportStrParams = {

@@ -11,7 +11,7 @@
       "@/*": ["src/*"]
     },
   },
-  "exclude": ["tests/fixtures", "tests/playground"],
+  "include": ["src"],
   "tsc-alias": {
     "resolveFullPaths": true,
   }

@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "set": "node scripts/prepare-playground.js",
     "prepare": "tsc && tsc-alias",
-    "attack": "node dist/src/index.js",
+    "attack": "node dist/index.js",
     "pa": "npm run prepare && npm run attack"
   },
   "author": "",

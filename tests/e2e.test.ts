@@ -1,7 +1,7 @@
 import { readFileSync } from 'fs';
 import { execSync } from "child_process"
 import { glob } from 'glob';
-import { REPLACE_MAP } from '@/constants';
+import { REPLACE_MAP } from '../src/constants';
 
 const PLAYGROUND_PATH = 'tests/playground';
 
@@ -28,7 +28,7 @@ describe("attack on barrel", () => {
 
         expect(playgroundContent).toBe(fixtureContent)
       }
-    })
+    });
   })
 
   describe("replaceable", () => {
@@ -42,6 +42,6 @@ describe("attack on barrel", () => {
         expect(playgroundContent).not.toContain(`${REPLACE_MAP[0].barrelPath};`)
         expect(playgroundContent).toContain(`${REPLACE_MAP[0].barrelPath}/`)
       }
-    })
+    });
   })
 })
