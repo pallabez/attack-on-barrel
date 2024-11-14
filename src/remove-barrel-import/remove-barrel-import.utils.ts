@@ -4,6 +4,7 @@ type TGenerateMatchPatternParams = {
     barrelPath: string;
 }
 
+// TODO: Write the function signature & unit tests
 export const generateMatchPattern = ({ barrelPath }: TGenerateMatchPatternParams): RegExp => {
     // Escape special characters in barrelPath for use in a regex pattern
     const escapedBarrelPath = barrelPath.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
