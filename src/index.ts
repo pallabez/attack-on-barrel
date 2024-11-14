@@ -10,6 +10,7 @@ const replaceBarrelFiles = async () => {
     const filePaths = await glob(CONFIG.DIRECTORY_MATCH);
 
     for (const filePath of filePaths) {
+        // TODO: Check if file is a directory
         let fileContent = readFileSync(filePath, "utf-8");
         let hasChanged = false;
 
